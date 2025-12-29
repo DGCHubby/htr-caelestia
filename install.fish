@@ -305,4 +305,8 @@ end
 # Start the shell
 caelestia shell -d > /dev/null
 
+#Some my shit
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+xdg-mime default org.gnome.Nautilus.desktop application/x-gnome-saved-search
+
 log 'Done!'
